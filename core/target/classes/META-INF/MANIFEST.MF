@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Created-By: Maven Integration for Eclipse
+Bundle-Category: Static Site
+Bundle-Description: Core bundle for Static Site
+Bundle-ManifestVersion: 2
+Bundle-Name: Static Site - Core
+Bundle-SymbolicName: staticsite.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Import-Package: javax.annotation;version="0.0.0",javax.servlet;version="
+ [3.1,4)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.re
+ source;version="[2.12,3)",org.apache.sling.api.resource.observation;ver
+ sion="[1.2,2)",org.apache.sling.api.servlets;version="[2.3,3)",org.apac
+ he.sling.models.annotations;version="[1.5,2)",org.apache.sling.models.a
+ nnotations.injectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2
+ )"
+Private-Package: com.adobe.aem.static.sites.core.filters,com.adobe.aem.s
+ tatic.sites.core.listeners,com.adobe.aem.static.sites.core.models,com.a
+ dobe.aem.static.sites.core.schedulers,com.adobe.aem.static.sites.core.s
+ ervlets
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.Run
+ nable",osgi.service;objectClass:List<String>="javax.servlet.Filter";use
+ s:="javax.servlet",osgi.service;objectClass:List<String>="javax.servlet
+ .Servlet";uses:="javax.servlet",osgi.service;objectClass:List<String>="
+ org.apache.sling.api.resource.observation.ResourceChangeListener";uses:
+ ="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.static.sites.core.filters.Logg
+ ingFilter.xml,OSGI-INF/com.adobe.aem.static.sites.core.listeners.Simple
+ ResourceListener.xml,OSGI-INF/com.adobe.aem.static.sites.core.scheduler
+ s.SimpleScheduledTask.xml,OSGI-INF/com.adobe.aem.static.sites.core.serv
+ lets.SimpleServlet.xml
+Sling-Model-Classes: com.adobe.aem.static.sites.core.models.HelloWorldMo
+ del
+

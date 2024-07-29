@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Static Site - UI apps</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="dependencies-locations">adobe/cq60:core.wcm.components.content:2.21.2=maven:com.adobe.cq:core.wcm.components.content:2.21.2:zip,adobe/cq60:core.wcm.components.config:2.21.2=maven:com.adobe.cq:core.wcm.components.config:2.21.2:zip</entry>
+<entry key="created">2024-07-29T07:10:39.297Z</entry>
+<entry key="groupId">com.adobe.aem.static.sites</entry>
+<entry key="description">UI apps package for Static Site</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">application</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">adobe/cq60:core.wcm.components.content:2.21.2,adobe/cq60:core.wcm.components.config:2.21.2</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">staticsite.ui.apps</entry>
+<entry key="artifactId">staticsite.ui.apps</entry>
+<entry key="group">com.adobe.aem.static.sites</entry>
+</properties>

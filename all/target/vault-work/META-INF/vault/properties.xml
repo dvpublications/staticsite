@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Static Site - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2024-07-29T07:10:38.636Z</entry>
+<entry key="groupId">com.adobe.aem.static.sites</entry>
+<entry key="name">staticsite.all</entry>
+<entry key="description">All content package for Static Site</entry>
+<entry key="artifactId">staticsite.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem.static.sites</entry>
+</properties>

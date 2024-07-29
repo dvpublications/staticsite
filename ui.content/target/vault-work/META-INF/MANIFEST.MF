@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 21
+Implementation-Title: Static Site - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobe.aem.static.sites:staticsite.ui.content:1.0
+ .0-SNAPSHOT
+Content-Package-Description: UI content package for Static Site
+Content-Package-Dependencies: com.adobe.aem.static.sites:staticsite.ui.a
+ pps:1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobe.aem.static.sites:stati
+ csite.ui.apps:1.0.0-SNAPSHOT=maven:com.adobe.aem.static.sites:staticsit
+ e.ui.apps:1.0.0-SNAPSHOT:zip
+Content-Package-Roots: /conf/staticsite,/content/dam/staticsite,/content
+ /dam/staticsite/asset.jpg,/content/experience-fragments/staticsite,/con
+ tent/staticsite
+
