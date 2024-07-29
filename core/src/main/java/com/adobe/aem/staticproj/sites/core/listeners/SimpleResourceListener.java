@@ -13,7 +13,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.static.sites.core.listeners;
+package com.adobe.aem.staticproj.sites.core.listeners;
 
 import java.util.List;
 

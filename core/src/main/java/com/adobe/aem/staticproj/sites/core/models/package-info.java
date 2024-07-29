@@ -14,6 +14,6 @@
  *  limitations under the License.
  */
 @Version("1.0")
-package com.adobe.aem.static.sites.core.servlets;
+package com.adobe.aem.staticproj.sites.core.models;
 
 import org.osgi.annotation.versioning.Version;

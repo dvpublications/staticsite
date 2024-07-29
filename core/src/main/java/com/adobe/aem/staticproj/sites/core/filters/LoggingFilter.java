@@ -1,3 +1,5 @@
+package com.adobe.aem.staticproj.sites.core.filters;
+
 /*
  *  Copyright 2015 Adobe Systems Incorporated
  *
@@ -13,7 +15,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.static.sites.core.filters;
+
 
 import java.io.IOException;
 import javax.servlet.Filter;
